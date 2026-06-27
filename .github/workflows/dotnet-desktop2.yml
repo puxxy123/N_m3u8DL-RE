@@ -79,7 +79,7 @@ jobs:
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
-      run: run: dotnet test src/N_m3u8DL-RE.sln
+      run: dotnet test src/N_m3u8DL-RE.sln
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
